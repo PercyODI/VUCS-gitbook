@@ -1,27 +1,29 @@
 # install the plugins and build the static site
 gitbook install && gitbook build
 
-# checkout to the gh-pages branch
-git checkout gh-pages
+ls -la
 
-# pull the latest updates
-git pull origin gh-pages --rebase
+# # checkout to the gh-pages branch
+# git checkout gh-pages
 
-# copy the static site files into the current directory.
-cp -R _book/* .
+# # pull the latest updates
+# git pull origin gh-pages --rebase
 
-# remove 'node_modules' and '_book' directory
-git clean -fx node_modules
-git clean -fx _book
+# # copy the static site files into the current directory.
+# cp -R _book/* .
 
-# add all files
-git add .
+# # remove 'node_modules' and '_book' directory
+# git clean -fx node_modules
+# git clean -fx _book
 
-# commit
-git commit -a -m "Update docs"
+# # add all files
+# git add .
 
-# push to the origin
-git push origin gh-pages
+# # commit
+# git commit -a -m "Update docs"
 
-# checkout to the master branch
-git checkout master
+# # push to the origin
+# git push origin gh-pages
+
+# # checkout to the master branch
+# git checkout master
