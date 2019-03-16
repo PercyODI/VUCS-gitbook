@@ -4,7 +4,10 @@
 * [Overview](Overview.md)
 
 ## Curriculum Maps
-* [Unit 1 - Admin Page](CurriculumMaps/Unit1.md)
-* [Unit 2 - Back-end](CurriculumMaps/Unit2.md)
-* [Unit 3 - Databases](CurriculumMaps/Unit3.md)
-* [Unit 4 - Store Front](CurriculumMaps/Unit4.md)
+* [Unit 1 - Admin Page](Unit1/Unit1-Map.md)
+* [Unit 2 - Back-end](Unit2/Unit2-Map.md)
+* [Unit 3 - Databases](Unit3/Unit3-Map.md)
+* [Unit 4 - Store Front](Unit4/Unit4-Map.md)
+
+## Projects and Worksheets
+* [Store Front Mock Up Project](Unit1/FakeStoreFrontProject.md)
