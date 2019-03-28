@@ -3,4 +3,4 @@
 
 | LP | Title | Technology | Expected Lesson Date | Expected Presentor |
 |---|---|---|---|---|
-| 2.01 | Intro to Javascript |
+| 2.01 | Intro to C# and WebAPI |
