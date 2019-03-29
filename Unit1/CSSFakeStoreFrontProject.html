@@ -1,0 +1,380 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>CSSing the Store Front Project · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    
+    <link rel="prev" href="FakeStoreFrontProject.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../Overview.html">
+            
+                <a href="../Overview.html">
+            
+                    
+                    Overview
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Curriculum Maps</li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="Unit1-Map.html">
+            
+                <a href="Unit1-Map.html">
+            
+                    
+                    Unit 1 - Admin Page
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="../Unit2/Unit2-Map.html">
+            
+                <a href="../Unit2/Unit2-Map.html">
+            
+                    
+                    Unit 2 - Back-end
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="../Unit3/Unit3-Map.html">
+            
+                <a href="../Unit3/Unit3-Map.html">
+            
+                    
+                    Unit 3 - Databases
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4" data-path="../Unit4/Unit4-Map.html">
+            
+                <a href="../Unit4/Unit4-Map.html">
+            
+                    
+                    Unit 4 - Store Front
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Projects and Worksheets</li>
+        
+        
+    
+        <li class="chapter " data-level="3.1" data-path="FakeStoreFrontProject.html">
+            
+                <a href="FakeStoreFrontProject.html">
+            
+                    
+                    Store Front Mock Up Project
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="3.2" data-path="CSSFakeStoreFrontProject.html">
+            
+                <a href="CSSFakeStoreFrontProject.html">
+            
+                    
+                    CSSing the Store Front Project
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >CSSing the Store Front Project</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="cssing-the-store-front-project">CSSing the Store Front Project</h1>
+<h2 id="goal">Goal</h2>
+<p>Using new CSS knowledge, stylelize the <a href="FakeStoreFrontProject.html">previous store front project</a>.</p>
+<h2 id="requirements">Requirements</h2>
+<ol>
+<li>A <code>site.css</code> file that is imported into every web page.</li>
+<li>An <code>index.css</code> file that is imported only by <code>index.html</code></li>
+<li>A <code>product.css</code> file that is imported by all the <code>product{1..5}.html</code> </li>
+<li>At least 5 CSS rules in each <code>.css</code> file</li>
+<li>No duplicated rules<ul>
+<li>i.e. if you find that that <code>&lt;p&gt;</code> tags in both <code>index.html</code> and <code>product2.html</code> have a <code>font-size: 15px</code> rule, it can only exist in one file, not duplicated in two different files.</li>
+</ul>
+</li>
+<li>Must make good use of CSS Selectors<ul>
+<li>This may require changing how the original HTML was structured!</li>
+</ul>
+</li>
+</ol>
+<h2 id="resources">Resources</h2>
+<ul>
+<li><a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Syntax" target="_blank">MDN - CSS Syntax</a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Simple_selectors" target="_blank">MDN - CSS Simple Selectors</a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Cascade_and_inheritance" target="_blank">MDN - CSS Cascade and Inheritance</a></li>
+<li><a href="https://stackoverflow.com/" target="_blank">StackOverflow</a></li>
+<li><a href="https://google.com" target="_blank">Google</a></li>
+</ul>
+<h2 id="sample-directory-setup">Sample Directory Setup</h2>
+<ul>
+<li><i class="fa fa-folder-open"></i> storefront<ul>
+<li><i class="fa fa-folder-open"></i> images<ul>
+<li><i class="fa fa-file"></i> product1.jpg</li>
+<li><i class="fa fa-file"></i> product2.jpg</li>
+<li><i class="fa fa-file"></i> product3.jpg</li>
+<li><i class="fa fa-file"></i> product4.jpg</li>
+<li><i class="fa fa-file"></i> product5.jpg</li>
+</ul>
+</li>
+<li><i class="fa fa-folder-open"></i> products<ul>
+<li><i class="fa fa-file"></i> product1.html</li>
+<li><i class="fa fa-file"></i> product2.html</li>
+<li><i class="fa fa-file"></i> product3.html</li>
+<li><i class="fa fa-file"></i> product4.html</li>
+<li><i class="fa fa-file"></i> product5.html</li>
+</ul>
+</li>
+<li><i class="fa fa-file"></i> index.html</li>
+<li><i class="fa fa-file"></i> site.css</li>
+<li><i class="fa fa-file"></i> index.css</li>
+<li><i class="fa fa-file"></i> product.css</li>
+</ul>
+</li>
+</ul>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="FakeStoreFrontProject.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page: Store Front Mock Up Project">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"CSSing the Store Front Project","level":"3.2","depth":1,"previous":{"title":"Store Front Mock Up Project","level":"3.1","depth":1,"path":"Unit1/FakeStoreFrontProject.md","ref":"Unit1/FakeStoreFrontProject.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"Unit1/CSSFakeStoreFrontProject.md","mtime":"2019-03-29T21:58:41.985Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-03-29T21:59:07.974Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
