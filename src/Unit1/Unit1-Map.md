@@ -100,3 +100,20 @@ Students will be able to:
 | 1. | [Khan Academy - HTML/JS (DOM Events to the End)](https://www.khanacademy.org/computing/computer-programming/html-css-js/html-js-dom-events/v/making-webpages-interactive-with-events) | Self-Paced Learning | 1 hr | 
 | 2. | Pair Project Work (TBD) | Pair Project | 1 hr | 
 | 3. | [Khan Academy - HTML/JS jQuery](https://www.khanacademy.org/computing/computer-programming/html-js-jquery) | Self-Paced Learning | 2 hr |
+
+## 1.04 _Ephemoral Dev and IIS_ {#1.04}
+
+### Objectives
+Students will be able to:
+- Request and access an Ephemoral Dev server
+  - Using RDP
+- Install IIS onto Windows Server
+- Serve static files via IIS
+  - Internal Access vs External Access
+
+### Lesson
+| Step | Resource | Type | Time |
+|:----:|----------|------|------|
+| 1. | Ephemoral Dev Lecture/Follow Along | Lecture | 45 min |
+| 2. | IIS Lecure/Follow Along | Lecture | 45 min |
+| 3. | 
