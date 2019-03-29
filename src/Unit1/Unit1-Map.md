@@ -20,7 +20,6 @@
 
 ---
 
-
 ## 1.01 _Intro to HTML_ {#1.01}
 
 ### Objectives
