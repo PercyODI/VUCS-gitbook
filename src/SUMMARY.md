@@ -11,3 +11,4 @@
 
 ## Projects and Worksheets
 * [Store Front Mock Up Project](Unit1/FakeStoreFrontProject.md)
+* [CSSing the Store Front Project](Unit1/CSSFakeStoreFrontProject.md)
