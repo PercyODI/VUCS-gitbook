@@ -21,18 +21,18 @@ Using just HTML, build a store front mock up. Think about how you have seen othe
 - ["Code Radio 🎧 + 💻 24/7 concentration music for programmers"](https://www.youtube.com/watch?v=mXRfApkMYZU)
 
 ## Sample Directory Setup
-- storefront
-    - images
-        - `product1.jpg`
-        - `product2.jpg`
-        - `product3.jpg`
-        - `product4.jpg`
-        - `product5.jpg`
-    - products
-        - `product1.html`
-        - `product2.html`
-        - `product3.html`
-        - `product4.html`
-        - `product5.html`
-    - `index.html`
+- <i class="fa fa-folder-open"></i> storefront
+    - <i class="fa fa-folder-open"></i> images
+        - <i class="fa fa-file"></i> product1.jpg
+        - <i class="fa fa-file"></i> product2.jpg
+        - <i class="fa fa-file"></i> product3.jpg
+        - <i class="fa fa-file"></i> product4.jpg
+        - <i class="fa fa-file"></i> product5.jpg
+    - <i class="fa fa-folder-open"></i> products
+        - <i class="fa fa-file"></i> product1.html
+        - <i class="fa fa-file"></i> product2.html
+        - <i class="fa fa-file"></i> product3.html
+        - <i class="fa fa-file"></i> product4.html
+        - <i class="fa fa-file"></i> product5.html
+    - <i class="fa fa-file"></i> index.html
     
